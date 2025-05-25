@@ -21,7 +21,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: 2px solid red;
     background-blend-mode: overlay;
 }
 
@@ -49,7 +48,26 @@ body {
 .second-section {
     width: 802.9px;
     height: 806px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 90px;
+}
+
+.off-heading{
+color: red;
+}
+
+.our-holiday{
+color: tomato;
+}
+
+.img-container{
+    margin-top: 90px;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
