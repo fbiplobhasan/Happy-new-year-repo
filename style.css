@@ -4,6 +4,7 @@ body {
     font-family: "Merriweather", serif;
 }
 
+/* universal selector */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -43,7 +44,7 @@ body {
     font-weight: 400;
     color: white;
 }
-
+/* banner section style end here */
 /* <!-- 65% section style start here --> */
 .second-section {
     width: 802.9px;
@@ -71,3 +72,4 @@ color: tomato;
     align-items: center;
     text-align: center;
 }
+/* <!-- 65% section style end here --> */
