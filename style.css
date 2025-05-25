@@ -44,6 +44,7 @@ body {
     font-weight: 400;
     color: white;
 }
+
 /* banner section style end here */
 /* <!-- 65% section style start here --> */
 .second-section {
@@ -53,23 +54,118 @@ body {
     margin-top: 90px;
 }
 
-.off-heading{
-color: red;
+.off-heading {
+    color: red;
 }
 
-.our-holiday{
-color: tomato;
+.our-holiday {
+    color: tomato;
 }
 
-.img-container{
+.img-container {
     margin-top: 90px;
 }
 
-.second-section{
+.second-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 /* <!-- 65% section style end here --> */
+/* midnight party section style start here */
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('./resources/Vectorrr.png');
+    margin: 0 auto;
+    display: flex;
+    background-blend-mode: overlay;
+}
+
+.right-side-contant {
+    width: 80%;
+    height: 600px;
+    color: white;
+    background-image: url('./resources/Group\ 70.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+
+.left-side-contant {
+    width: 120%;
+    height: 600px;
+    font-family: Merriweather;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+/* midnight party section style start here */
+/* holiday section style start here */
+.holiday-section-container {
+    width: 1320px;
+    height: 786px;
+    border: 2px solid tomato;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.holiday-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068;
+    height: 260px;
+}
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: coral;
+    position: absolute;
+    top: 71%;
+}
+
+.gift-box {
+    display: flex;
+    width: 674;
+    height: 577px;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gift-box .box {
+    width: 500px;
+    height: 300px;
+}
+
+.girl-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: -2%;
+    top:-39% ;
+    
+}
+
+.discount{
+    position: absolute;
+    top:17% ;
+    left: 50%;
+    z-index: 1;
+}
+
+
+/* holiday section style start here */
