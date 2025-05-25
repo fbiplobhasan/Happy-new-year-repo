@@ -156,31 +156,77 @@ body {
     height: 400px;
     position: relative;
     left: -2%;
-    top:-39% ;
-    
+    top: -39%;
+
 }
 
-.discount{
+.discount {
     position: absolute;
-    top:17% ;
+    top: 17%;
     left: 50%;
     z-index: 1;
 }
+
 /* holiday section style end here */
 /* portfolio section style start here */
-.portfolio-container{
-width: 1320px;
-height: 1163px;
-border: 2px solid red;
-margin: 0 auto;
-margin-top: 100px;
-}
-/* portfolio section style end here */
-.item img{
-    
+.portfolio-container {
+    width: 1320px;
+    height: 1163px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
-.portfolio-items{
+/* portfolio section style end here */
+.item img {}
+
+.portfolio-items {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* footer section style start here */
+.footer-container {
+    width: 1320px;
+    height: 609px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-first-section {
+    display: flex;
+    color: white;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hrline {
+    color: white;
+    width: 1320px;
+}
+
+.social-icons {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    color: white;
+    margin-top: 400px;
+    justify-content: space-between;
 }
