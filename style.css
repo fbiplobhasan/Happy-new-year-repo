@@ -166,6 +166,21 @@ body {
     left: 50%;
     z-index: 1;
 }
+/* holiday section style end here */
+/* portfolio section style start here */
+.portfolio-container{
+width: 1320px;
+height: 1163px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 100px;
+}
+/* portfolio section style end here */
+.item img{
+    
+}
 
-
-/* holiday section style start here */
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
