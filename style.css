@@ -109,6 +109,22 @@ body {
 }
 
 /* midnight party section style end here */
+/* comming soon style start here */
+.comming-soon {
+    width: 1320px;
+    height: 463px;
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.middle-img {
+    border: 2px solid red;
+    border-radius: 100%;
+}
+
 /* park section style start here */
 .park-section {
     width: 1320px;
@@ -120,7 +136,8 @@ body {
     margin: 0 auto;
     margin-top: 100px;
 }
-.join-btn{
+
+.join-btn {
     background-color: red;
     color: white;
     border-radius: 10px;
@@ -128,20 +145,20 @@ body {
     line-height: 5;
 }
 
-.park{
-color: red;
-margin-left: 5px;
+.park {
+    color: red;
+    margin-left: 5px;
 }
 
-.date{
-color: red;
-margin-left: 10px;
+.date {
+    color: red;
+    margin-left: 10px;
 
 }
 
-.time{
-color: red;
-margin-left: 15px;
+.time {
+    color: red;
+    margin-left: 15px;
 }
 
 /* holiday section style start here */
@@ -211,6 +228,24 @@ margin-left: 15px;
 }
 
 /* portfolio section style end here */
+/* start mail section here */
+.mail-section {
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container-img{
+    text-align: center;
+}
+
+/* end mail section here */
 .item img {}
 
 .portfolio-items {
