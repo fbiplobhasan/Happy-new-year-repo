@@ -108,12 +108,46 @@ body {
     color: white;
 }
 
-/* midnight party section style start here */
+/* midnight party section style end here */
+/* park section style start here */
+.park-section {
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.join-btn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 5;
+}
+
+.park{
+color: red;
+margin-left: 5px;
+}
+
+.date{
+color: red;
+margin-left: 10px;
+
+}
+
+.time{
+color: red;
+margin-left: 15px;
+}
+
 /* holiday section style start here */
 .holiday-section-container {
     width: 1320px;
     height: 786px;
-    border: 2px solid tomato;
     margin: 0 auto;
     margin-top: 100px;
     position: relative;
@@ -172,7 +206,6 @@ body {
 .portfolio-container {
     width: 1320px;
     height: 1163px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -189,7 +222,6 @@ body {
 .footer-container {
     width: 1320px;
     height: 609px;
-    border: 2px solid red;
     margin: 0 auto;
     background-color: black;
 }
